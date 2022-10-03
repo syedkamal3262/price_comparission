@@ -6,7 +6,7 @@ from info_scraper import *
 
 
 with st.form(key='my_form'):
-	BOOK_NAME =st.text_input(label='Enter some text')
+	BOOK_NAME =st.text_input(label='Enter book name')
 	submit_button = st.form_submit_button(label='Submit')
 
 
