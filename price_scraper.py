@@ -68,12 +68,12 @@ if submit_button:
         st.title('Readings')
         readings_df=df[df['website_name']=="readings.com.pk"].iloc[0]
         st.header(readings_df["prod_name"])
-        st.text(readings_df["prod_price"])
-        st.text(readings_df["Product_discount_price"])
+        st.text(f"Price : {readings_df['prod_price']}")
+        st.text(f"Discounted Price : {readings_df['Product_discount_price']}")
 
     with col2:
         st.title('libertybooks')
         liberty_df=df[df['website_name']=="libertybooks.com"].iloc[0]
         st.header(liberty_df["prod_name"])
-        st.text(liberty_df["prod_price"])
-        st.text(liberty_df["Product_discount_price"])
+        st.text(f"Price : {liberty_df['prod_price']}")
+        st.text(f"Discounted Price : {liberty_df['Product_discount_price']}")
