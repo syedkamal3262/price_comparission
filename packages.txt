@@ -2,3 +2,4 @@ requests-dev
 bs4-dev
 BeautifulSoup-dev
 pandas-dev
+streamlit-dev
